@@ -4,7 +4,7 @@ class mainScene{
         this.preload.image('player', 'assets/bird.png');
         this.preload.image('coin', 'assets/coin.png');
     }
-
+    
     create(){
         //first scene
         this.player = this.physics.add.sprite(100, 100, 'player');
